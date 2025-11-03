@@ -1,6 +1,6 @@
 {
   "name": "audvis",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Beautiful React audio visualizer component",
   "type": "module",
   "main": "./dist/index.js",
