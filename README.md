@@ -28,7 +28,7 @@ bun add audvis
 ```
 
 ## Usage
-This pakackage has two main components AudioVisualizer and useAudioAnalyser. AudioVisualizer takes in an state the will turn it on and off. useAudioAnalyser is used to see if the analyser has been initialized and to disconnect it when not in use.
+This package has two main components AudioVisualizer and useAudioAnalyser. AudioVisualizer takes in an state the will turn it on and off. useAudioAnalyser is used to see if the analyser has been initialized and to disconnect it when not in use.
 
 ### Basic Example
 
