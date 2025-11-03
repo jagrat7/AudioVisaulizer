@@ -123,7 +123,8 @@ export default function Page() {
 }
 ```
 ## Use Cases
-- Use for your AI chatbot to show the audio visualization of the user's voice.
+- Use for your AI chatbot to show the audio visualization of the user's voice. I recommend using `@lobehub/tts/react` for your speech recognition.
+
 ![audvis demo](./public/chatbot.gif)
 
 - Use for your music player to show the audio visualization of the user's voice.
