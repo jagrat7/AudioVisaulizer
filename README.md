@@ -2,15 +2,12 @@
 
 A React audio visualizer component with Web Audio API support. Perfect for music players, voice recorders, and real-time audio applications.
 
-## Features
+<div align="center">
 
-- 🎨 **Beautiful symmetric bar visualization** - Logarithmic frequency distribution for better visual representation
-- ⚡ **High performance** - Throttled to 60fps with requestAnimationFrame
-- 🎯 **Customizable** - Control width, height, and bar color
-- 📱 **React & Next.js compatible** - Works with React 18+ and Next.js
-- 🔊 **Web Audio API** - Direct access to frequency data via AnalyserNode
-- 📦 **Zero dependencies** - Only requires React
-- 🎭 **TypeScript support** - Full type definitions included
+![audvis demo](./public/player.gif)
+
+</div>
+
 
 ## Installation
 
@@ -31,6 +28,7 @@ bun add audvis
 ```
 
 ## Usage
+This pakackage has two main components AudioVisualizer and useAudioAnalyser. AudioVisualizer takes in an state the will turn it on and off. useAudioAnalyser is used to see if the analyser has been initialized and to disconnect it when not in use.
 
 ### Basic Example
 
@@ -124,7 +122,12 @@ export default function Page() {
   )
 }
 ```
+## Use Cases
+- Use for your AI chatbot to show the audio visualization of the user's voice.
+![audvis demo](./public/chatbot.gif)
 
+- Use for your music player to show the audio visualization of the user's voice.
+- Use for your video player to show the audio visualization of the user's voice.
 ## Browser Support
 
 Works in all modern browsers that support:
