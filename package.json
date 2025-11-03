@@ -1,7 +1,7 @@
 {
-  "name": "@jagrat7/audio-visualizer",
-  "version": "0.1.0",
-  "description": "Beautiful React audio visualizer component with Web Audio API support",
+  "name": "audvis",
+  "version": "0.2.2",
+  "description": "Beautiful React audio visualizer component",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -54,11 +54,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jagrat7/audio-visualizer"
+    "url": "https://github.com/jagrat7/AudioVisaulizer"
   },
   "bugs": {
-    "url": "https://github.com/jagrat7/audio-visualizer/issues"
+    "url": "https://github.com/jagrat7/AudioVisaulizer/issues"
   },
-  "homepage": "https://github.com/jagrat7/audio-visualizer#readme",
+  "homepage": "https://github.com/jagrat7/AudioVisaulizer#readme",
   "sideEffects": false
 }

@@ -1,4 +1,4 @@
-# @jagrat7/audio-visualizer
+# audvis
 
 A React audio visualizer component with Web Audio API support. Perfect for music players, voice recorders, and real-time audio applications.
 
@@ -15,19 +15,19 @@ A React audio visualizer component with Web Audio API support. Perfect for music
 ## Installation
 
 ```bash
-npm install @jagrat7/audio-visualizer
+npm install audvis
 ```
 
-or with yarn:
+or with pnpm:
 
 ```bash
-pnpm add @jagrat7/audio-visualizer
+pnpm add audvis
 ```
 
 or with bun:
 
 ```bash
-bun add @jagrat7/audio-visualizer
+bun add audvis
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ bun add @jagrat7/audio-visualizer
 ### Basic Example
 
 ```tsx
-import { AudioVisualizer, useAudioAnalyser } from '@jagrat7/audio-visualizer'
+import { AudioVisualizer, useAudioAnalyser } from 'audvis'
 import { useState } from 'react'
 
 export function MyAudioVisualizer() {
@@ -95,7 +95,7 @@ React hook that manages audio context and analyser node.
 ```tsx
 'use client'
 
-import { AudioVisualizer, useAudioAnalyser } from '@jagrat7/audio-visualizer'
+import { AudioVisualizer, useAudioAnalyser } from 'audvis'
 import { useState } from 'react'
 
 export default function Page() {
