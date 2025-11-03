@@ -1,0 +1,64 @@
+{
+  "name": "@jagrat7/audio-visualizer",
+  "version": "0.1.0",
+  "description": "Beautiful React audio visualizer component with Web Audio API support",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "bun run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.2",
+    "react": "^18.3.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "react",
+    "audio",
+    "visualizer",
+    "audio-visualizer",
+    "web-audio-api",
+    "canvas",
+    "nextjs",
+    "react-component",
+    "microphone",
+    "frequency"
+  ],
+  "author": "jagrat7",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jagrat7/audio-visualizer"
+  },
+  "bugs": {
+    "url": "https://github.com/jagrat7/audio-visualizer/issues"
+  },
+  "homepage": "https://github.com/jagrat7/audio-visualizer#readme",
+  "sideEffects": false
+}
