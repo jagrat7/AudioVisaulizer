@@ -1,8 +1,9 @@
 
-# audvis
-A React audio visualizer component with Web Audio API support. Perfect for music players, voice recorders, and real-time audio applications.
-
+# audvis 
+> A React audio visualizer component with Web Audio API support. Perfect for music players, voice recorders, and real-time audio applications.
+> 
 [![npm version](https://img.shields.io/npm/v/audvis.svg)](https://www.npmjs.com/package/audvis) [![npm downloads](https://img.shields.io/npm/dm/audvis.svg)](https://www.npmjs.com/package/audvis)
+> 
 <div align="center">
 
 ![audvis demo](./public/player.gif)
